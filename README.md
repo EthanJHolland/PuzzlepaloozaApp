@@ -1,2 +1,2 @@
 # PuzzlepaloozaApp
-Summer 2016 project; puzzle competition app
+Project from summer 2016. Android app with a firebase backend designed for a puzzle competition such as Puzzlepalooza (http://puzzlepalooza.mbhs.edu/) at Montgomery Blair High School. Begun at HackUMBC. Finished but never published and no longer maintained due to the Firebase SDK changes when Google bought Firebase
