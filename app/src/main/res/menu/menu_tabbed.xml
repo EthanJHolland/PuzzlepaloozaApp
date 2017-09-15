@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.ethan.ppvii.Tabbed">
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="100"
+        android:title="@string/action_logout_text"
+        android:icon="@drawable/logout"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_refresh"
+        android:orderInCategory="99"
+        android:icon="@drawable/refresh"
+        android:title="@string/action_refresh_text"
+        app:showAsAction="ifRoom" />
+</menu>

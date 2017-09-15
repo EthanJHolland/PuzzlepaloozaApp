@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/prog_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textAllCaps="true"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:text="team name"/>
+
+    <TextView
+        android:id="@+id/prog_solved"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/prog_title"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="solved: 0"/>
+
+    <TextView
+        android:id="@+id/prog_pts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/prog_solved"
+        android:layout_centerHorizontal="true"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="points: 0"/>
+
+    <TextView
+        android:id="@+id/prog_money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/prog_solved"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="money: 0"/>
+
+    <TextView
+        android:id="@+id/prog_rank"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/prog_solved"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="rank: 0"/>
+
+    <ListView
+        android:id="@+id/prog_lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/prog_rank"/>
+</RelativeLayout>

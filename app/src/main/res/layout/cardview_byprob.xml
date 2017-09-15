@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/cardview_margin"
+            android:layout_marginBottom="@dimen/cardview_margin">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="@dimen/byprob_cardview"
+                android:id="@+id/bp_num"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/bp_num"
+                android:layout_marginLeft="@dimen/byprob_cardview"
+                android:id="@+id/bp_solvedby"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/bp_solvedby"
+                android:layout_marginLeft="@dimen/byprob_cardview"
+                android:layout_marginRight="@dimen/byprob_cardview"
+                android:id="@+id/bp_solvedlist"/>
+        </RelativeLayout>
+    </HorizontalScrollView>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/prog_cv"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/cardview_margin"
+    android:layout_marginRight="@dimen/cardview_margin"
+    android:layout_marginBottom="@dimen/cardview_margin">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/prog_cv_prob"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="12dp"
+            android:lines="1"
+            android:text="prob 2"/>
+
+
+        <TextView
+            android:id="@+id/prog_cv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@id/prog_cv_prob"
+            android:lines="1"
+            android:ellipsize="end"
+            android:gravity="right"
+            android:text="name"/>
+
+        <TextView
+            android:id="@+id/prog_cv_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_below="@id/prog_cv_prob"
+            android:text="text" />
+
+
+        <View
+            android:id="@+id/prog_cv_strut"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_below="@id/prog_cv_text"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:id="@+id/prog_cv_yes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/prog_cv_text"
+            android:layout_alignParentRight="true"
+            android:layout_alignLeft="@id/prog_cv_strut"
+            android:text="YES"/>
+
+        <Button
+            android:id="@+id/prog_cv_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/prog_cv_text"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@id/prog_cv_strut"
+            android:text="NO" />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

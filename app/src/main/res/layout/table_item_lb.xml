@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/table_pts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="-3dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:text="00"
+        />
+
+    <CheckBox
+        android:id="@+id/table_s"
+        android:enabled="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="-14dp"
+        android:layout_marginTop="-5dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/table_pts"/>
+
+    <CheckBox
+        android:id="@+id/table_m"
+        android:enabled="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="-14dp"
+        android:layout_below="@id/table_s"
+        android:layout_toRightOf="@id/table_pts"/>
+
+    <CheckBox
+        android:id="@+id/table_l"
+        android:enabled="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/table_m"
+        android:layout_marginBottom="-5dp"
+        android:layout_toRightOf="@id/table_pts"/>
+
+</RelativeLayout>

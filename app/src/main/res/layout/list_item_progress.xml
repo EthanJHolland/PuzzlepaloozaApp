@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp">
+
+    <TextView
+        android:id="@+id/prog_probnum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="10dp"
+        android:text="#"/>
+
+    <TextView
+        android:id="@+id/prog_issolved"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_weight="1"
+        android:lines="1"
+        android:layout_marginRight="4dp"
+        android:text="unsolved"/>
+
+    <TextView
+        android:id="@+id/prog_s_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="-4dp"
+        android:text="s"/>
+
+    <CheckBox
+        android:id="@+id/prog_s_cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="4dp"
+        android:clickable="false" />
+
+    <TextView
+        android:id="@+id/prog_m_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="-4dp"
+        android:text="m"/>
+
+    <CheckBox
+        android:id="@+id/prog_m_cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="4dp"
+        android:clickable="false" />
+
+
+    <TextView
+        android:id="@+id/prog_l_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="-4dp"
+        android:text="l"/>
+
+    <CheckBox
+        android:id="@+id/prog_l_cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:clickable="false" />
+</LinearLayout>

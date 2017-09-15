@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">PPVII</string>
+
+    <!-- login- button fields -->
+    //buttons
+    <string name="action_sign_in">Sign In</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_anon">Sign In As Guest</string>
+    <string name="action_anon_short">Guest</string>
+    <!-- login- text fields -->
+    <string name="prompt_user">Username</string>
+    <string name="prompt_pass">Password</string>
+    <string name="error_invalid_user">This username is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+
+    <!-- Strings for tabbed activity -->
+    <string name="title_activity_tabbed">Tabbed</string>
+
+    <!--android menu bar text (the three vertical dots in the toolbar -->
+    <string name="action_logout_text">Log out</string>
+    <string name="action_refresh_text">Refresh</string>
+
+    <!-- submit page- button fields -->
+    //buttons
+    <string name="action_submit">Submit Answer</string>
+    <string name="action_submit_short">Sign in</string>
+
+    <!-- submit page- text fields -->
+    <string name="prompt_submit">Submission Here</string>
+    <string name="error_submit_field_required">This field is required</string>
+
+    <!-- progress and queue page fields -->
+    <string name="returntologin_button">"back to login"</string>
+
+    <!-- text to display for when data has not yet been loaded -->
+    <string name="messages_notyetloaded">"No messages to display at this time…"</string>
+    <string name="progess_notyetloaded">"Team information loading…"</string>
+    <string name="leaderboard_notyetloaded">"Leaderboard data is being loaded, sorry for the delay…"</string>
+    <string name="submit_notyetloaded">"Progress data loading, sorry for the delay…"</string>
+
+    <!-- text to display if no data exists yet -->
+    <string name="queue_empty">"No submissions at this time…"</string>
+    <string name="messages_empty">"No messages at this time…"</string>
+    <string name="events_empty">No new events…</string>
+
+
+    <!-- text to display to anon users -->
+    <string name="progress_unavailableforanon">"You are currently signed in as a guest, to view progress you must login…"</string>
+
+
+
+    <!-- text to display if the app is having major problems and the needs to be disabled until it can be fixed-->
+    <string name="not_working">"Something has gone terribly wrong. We are working to fix things as quickly as possible. Sorry for the inconvenience."</string>
+
+</resources>
